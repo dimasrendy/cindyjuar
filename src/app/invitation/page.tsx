@@ -16,7 +16,8 @@ import GalleryContainer from "@/components/Gallery/page";
 import FooterImage from "@/components/Gallery/Photo1.jpeg";
 dayjs.extend(duration);
 
-const Invitation = ({ weddingDate = dayjs("2023-09-16 09:00") }) => {
+const Invitation = () => {
+  const weddingDate = dayjs("2023-09-16 09:00");
   const [currentTime, setCurrentTime] = useState(dayjs());
   const timeBetween = dayjs.duration(weddingDate.diff(currentTime));
   const [isPlaying, setIsPlaying] = useState(true);
