@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Wedding of C&J",
   description: "The Wedding of C&J",
+  metadataBase: new URL('https://cindyjuarnikah.netlify.app/'),
   openGraph: {
     title: "The Wedding of C&J",
     description: "The Wedding of C&J",
