@@ -39,12 +39,21 @@ const Invitation = () => {
 
   return (
     <section className="max-w-lg h-screen mx-auto relative">
-      <Image
-        src={ImageTop}
-        alt="Image Header"
-        className="object-cover object-center w-full h-5/6"
-        loading="eager"
-      />
+      <div className={`relative h-[620px] flex flex-col items-center justify-end pb-20 ${cormorand_garamont.className} text-white`}>
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src={ImageTop}
+            fill
+            alt="Image Header"
+            className="object-cover object-center"
+            loading="eager"
+            priority={true}
+          />
+        </div>
+        <p className="font-bold text-4xl tracking-widest">The Wedding Of</p>
+        <p className={`${qwitcher_grypen.className} text-7xl font-bold`}>Cindy & Juar</p>
+      </div>
+
       <ReactHowler src={"/janjikita.mp3"} playing={isPlaying} loop />
       <div className="container px-4 py-4">
         <div className="bg-black1 p-6 flex flex-col gap-y-4 justify-center items-center rounded-lg">
@@ -80,8 +89,11 @@ const Invitation = () => {
           >
             Cindia Putri Septiani
           </p>
-          <p className={`${cormorand_garamont.className} text-center text-lg`}>
-            Putri Kedua dari Bapak Husni Thamrin & Ibu Rubiatun (Dedek)
+          <p
+            className={`${cormorand_garamont.className} text-center text-lg w-4/5`}
+          >
+            Putri Kedua dari Bapak Husni Thamrin (Ketua RT RT 05 Cluster Rhabayu
+            Oceanic) & Ibu Rubiatun (Dedek)
           </p>
         </div>
 
@@ -257,12 +269,23 @@ const Invitation = () => {
 
       <div className={`relative h-[620px] ${cormorand_garamont.className}`}>
         <div className="absolute inset-0 -z-10">
-          <Image src={FooterImage} alt="Background Footer" fill className="object-cover object-bottom" />
+          <Image
+            src={FooterImage}
+            alt="Background Footer"
+            fill
+            className="object-cover object-bottom"
+          />
         </div>
-        <p className="text-center text-white font-bold pt-16 text-3xl">TERIMAKASIH</p>
-        <p className={`${qwitcher_grypen.className} text-white font-bold text-6xl text-center`}>Cindy & Juar</p>
+        <p className="text-center text-white font-bold pt-16 text-3xl">
+          TERIMAKASIH
+        </p>
+        <p
+          className={`${qwitcher_grypen.className} text-white font-bold text-6xl text-center`}
+        >
+          Cindy & Juar
+        </p>
       </div>
-      
+
       <div
         className="fixed rounded-full top-8 left-4"
         role="button"

@@ -20,6 +20,7 @@ export default function Home() {
             fill
             loading="eager"
             className="object-cover object-center"
+            priority={true}
           />
         </div>
       </div>
