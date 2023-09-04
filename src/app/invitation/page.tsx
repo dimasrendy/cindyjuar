@@ -43,6 +43,7 @@ const Invitation = () => {
         src={ImageTop}
         alt="Image Header"
         className="object-cover object-center w-full h-5/6"
+        loading="eager"
       />
       <ReactHowler src={"/janjikita.mp3"} playing={isPlaying} loop />
       <div className="container px-4 py-4">
@@ -254,7 +255,7 @@ const Invitation = () => {
         </div>
       </div>
 
-      <div className={`relative h-[520px] ${cormorand_garamont.className}`}>
+      <div className={`relative h-[620px] ${cormorand_garamont.className}`}>
         <div className="absolute inset-0 -z-10">
           <Image src={FooterImage} alt="Background Footer" fill className="object-cover object-bottom" />
         </div>
