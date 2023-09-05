@@ -1,5 +1,5 @@
 "use client";
-import ImageTop from "@/app/ImageTop.jpg";
+import ImageTop from "@/app/ImageTop.webp";
 import Flower from "@/app/Flower.png";
 import AkadImage from "@/app/AkadImage.png";
 import ResepsiImage from "@/app/ResepsiImage.png";
@@ -165,7 +165,7 @@ const Invitation = () => {
 
             <a
               href="https://goo.gl/maps/SUBSjijxz3cKyMx37"
-              className="btn-yellow3 text-lg font-semibold flex items-center gap-x-2 shadow-lg"
+              className="btn-yellow3 text-lg font-semibold flex items-center gap-x-2 shadow-lg my-4"
             >
               <div className="relative h-6 w-6">
                 <Image
@@ -218,7 +218,7 @@ const Invitation = () => {
 
             <a
               href="https://goo.gl/maps/SUBSjijxz3cKyMx37"
-              className="btn-yellow3 text-lg font-semibold flex items-center gap-x-2 shadow-lg"
+              className="btn-yellow3 text-lg font-semibold flex items-center gap-x-2 shadow-lg my-4"
             >
               <div className="relative h-6 w-6">
                 <Image

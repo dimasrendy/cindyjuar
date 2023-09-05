@@ -26,13 +26,14 @@ export default function Home() {
       </div>
 
       <div className="h-screen pt-32 pb-36 container px-4 flex flex-col justify-between items-center">
-        <div className="flex flex-col items-center justify-center gap-y-6">
-          <p className="uppercase font-semibold text-primary">The Wedding Of</p>
+        <div className="flex flex-col items-center justify-center gap-y-6 text-primary">
+          <p className="uppercase font-semibold">The Wedding Of</p>
           <h1
-            className={` text-7xl text-primary tracking-wider font-medium ${qwitcher_grypen.className}`}
+            className={` text-7xl tracking-wider font-semibold ${qwitcher_grypen.className}`}
           >
             Cindy & Juar
           </h1>
+          <p className="font-semibold text-lg uppercase">16 September 2023</p>
         </div>
 
         <div className="flex flex-col gap-y-6">
