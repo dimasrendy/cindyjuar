@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     type: "website",
     images: {
       url: "/me.jpeg",
-      width: 400,
-      height: 600,
+      width: 200,
+      height: 200,
     },
   },
 };
