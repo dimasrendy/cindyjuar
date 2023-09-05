@@ -92,7 +92,7 @@ const Invitation = () => {
           <p
             className={`${cormorand_garamont.className} text-center text-lg w-4/5`}
           >
-            Putri Kedua dari Bapak Husni Thamrin (Ketua RT RT 05 Cluster Rhabayu
+            Putri Kedua dari Bapak Husni Thamrin (Ketua RT 05 Cluster Rhabayu
             Oceanic) & Ibu Rubiatun (Dedek)
           </p>
         </div>
